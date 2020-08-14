@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="padding_of_layout">20dp</dimen>
+    <dimen name="text_size_default">20sp</dimen>
+    <dimen name="margin_of_button2">100dp</dimen>
+</resources>
