@@ -5,22 +5,12 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
-import android.widget.FrameLayout;
 
-import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 public class MainActivity extends AppCompatActivity {
-    @BindView(R.id.android_btn)
-    Button skipToAndroid;
-    @BindView(R.id.java_btn)
-    Button skipToJava;
-    @BindView(R.id.right_layout)
-    FrameLayout rightLayout;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,14 +19,18 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick(R.id.android_btn)
-    public void onClickAndroidBtn() {
-        replaceFragment(new RightFragmentOfAndroid());
-    }
-
-    @OnClick(R.id.java_btn)
-    public void onClickJavaBtn() {
-        replaceFragment(new RightFragmentOfJava());
+    @OnClick({R.id.android_btn, R.id.java_btn})
+    public void onClick(Button button) {
+        switch (button.getId()) {
+            case R.id.android_btn:
+                replaceFragment(new RightFragmentOfAndroid());
+                break;
+            case R.id.java_btn:
+                replaceFragment(new RightFragmentOfJava());
+                break;
+            default:
+                break;
+        }
     }
 
     private void replaceFragment(Fragment fragment) {
