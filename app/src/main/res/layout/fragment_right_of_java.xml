@@ -11,6 +11,7 @@
         android:layout_gravity="center"
         android:text="@string/new_fragment"
         android:textAllCaps="false"
-        android:textSize="@dimen/text_size_default" />
+        android:textSize="@dimen/text_size_default"
+        android:background="@drawable/button_rounded_corners"/>
 
 </FrameLayout>

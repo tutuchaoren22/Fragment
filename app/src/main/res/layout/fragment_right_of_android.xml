@@ -11,7 +11,8 @@
         android:layout_marginTop="@dimen/padding_of_layout"
         android:textSize="@dimen/text_size_default"
         android:text="@string/android"
-        android:textAllCaps="false" />
+        android:textAllCaps="false"
+        android:background="@drawable/button_rounded_corners"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -19,6 +20,7 @@
         android:layout_marginTop="@dimen/margin_of_button2"
         android:textSize="@dimen/text_size_default"
         android:text="@string/android_info"
-        android:textAllCaps="false"/>
+        android:textAllCaps="false"
+        android:background="@drawable/button_rounded_corners"/>
 
 </FrameLayout>
