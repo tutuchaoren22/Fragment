@@ -9,7 +9,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="一个新的Fragment"
+        android:text="@string/new_fragment"
         android:textAllCaps="false"
         android:textSize="@dimen/text_size_default" />
 
