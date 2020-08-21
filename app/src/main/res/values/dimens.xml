@@ -3,4 +3,5 @@
     <dimen name="text_size_default">20sp</dimen>
     <dimen name="margin_of_button2">100dp</dimen>
     <dimen name="radius_of_button">10dp</dimen>
+    <dimen name="right_weight">1</dimen>
 </resources>

@@ -3,5 +3,7 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
-    <color name="background_btn">#e5e5e5</color>
+    <color name="background_btn_no_checked">#e5e5e5</color>
+    <color name="background_btn_checked">#dde7fa</color>
+    <color name="border_btn_checked">#90a6cb</color>
 </resources>

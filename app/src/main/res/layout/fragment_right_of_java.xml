@@ -12,6 +12,6 @@
         android:text="@string/new_fragment"
         android:textAllCaps="false"
         android:textSize="@dimen/text_size_default"
-        android:background="@drawable/button_rounded_corners"/>
+        android:background="@drawable/button_rounded_corners_nochecked"/>
 
 </FrameLayout>

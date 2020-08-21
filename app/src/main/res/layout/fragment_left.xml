@@ -15,7 +15,7 @@
         android:layout_gravity="center_horizontal"
         android:text="@string/android"
         android:textAllCaps="false"
-        android:background="@drawable/button_rounded_corners"/>
+        android:background="@drawable/button_rounded_corners_nochecked"/>
 
     <Button
         android:id="@+id/java_btn"
@@ -26,5 +26,5 @@
         android:layout_gravity="center_horizontal"
         android:text="@string/java"
         android:textAllCaps="false"
-        android:background="@drawable/button_rounded_corners"/>
+        android:background="@drawable/button_rounded_corners_nochecked"/>
 </FrameLayout>
